@@ -1,0 +1,62 @@
+body {
+  background-image: url("https://img.wallpapersafari.com/desktop/800/450/12/21/kOjW3N.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li {
+  color: black;
+  font-family: sans-serif;
+}
+button {
+  color: #ffffff;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.puffer {
+  background-color: rgb(173, 216, 230, 0.5);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+# {
+  margin: 15px;
+}
+.sidebar {
+  width: 100px;
+  height: 100vh;
+  background: linear-gradient(#e4ba6d, #a0731e);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.content {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.sidebar img:hover {
+  filter: drop-shadow(8px 8px 10px white);
+}
+img {
+  border-radius: 360px;
+}
+.google-font {
+  font-family: "Quattrocento";
+}
+p {
+  margin-right: 200px;
+  margin-left: 100px;
+}
+.google-font2 {
+  font-family: "Red Hat Mono", monospace;
+}
